@@ -701,7 +701,7 @@ contract HOGOC is Context, IERC20, Ownable {
     IUniswapV2Router02 public  uniswapV2Router;
     address public  uniswapV2Pair;
 
-    uint256 public numTokensSellToAddToLiquidity = 50000000 * 10**18;
+    uint256 public numTokensSellToAddToLiquidity = 10000000 * 10**18;
     
     event MinTokensBeforeSwapUpdated(uint256 minTokensBeforeSwap);
     event SwapAndLiquifyEnabledUpdated(bool enabled);
